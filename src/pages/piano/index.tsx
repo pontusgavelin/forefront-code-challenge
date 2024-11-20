@@ -16,11 +16,14 @@ const keys = [
 ]
 
 const Piano = () => {
+  // 🪄 Make magic happen 🪄
+
   const playNote = (note: string) => {
     console.log(`Playing note: ${note}`)
     // Add sound playback logic here
   }
 
+  // End magic here :'(
   return (
     <div className="piano">
       {keys.map((key) => (
